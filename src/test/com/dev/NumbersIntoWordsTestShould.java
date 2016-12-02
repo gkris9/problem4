@@ -19,4 +19,16 @@ public class NumbersIntoWordsTestShould extends TestCase {
 		NumbersIntoWords numIntoWords = new NumbersIntoWords();
 		assertEquals("Two", numIntoWords.convertNumIntoWords(2));
 	}
+	
+	@Test
+	public void return_10_into_Words() {
+		NumbersIntoWords numIntoWords = new NumbersIntoWords();
+		assertEquals("Ten", numIntoWords.convertNumIntoWords(10));
+	}
+	
+	@Test
+	public void return_20_into_Words() {
+		NumbersIntoWords numIntoWords = new NumbersIntoWords();
+		assertEquals("Twenty", numIntoWords.convertNumIntoWords(20));
+	}
 }
