@@ -20,7 +20,8 @@ public enum WordToNum {
     Sixteen(16),
     Seventeen(17),
     Eighteen(18),
-    Ninteen(19);
+    Ninteen(19),
+    Twenty(20);
 	
 	private int number;
 	WordToNum(Integer number)
