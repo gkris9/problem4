@@ -20,7 +20,7 @@ public class NumbersIntoWords extends NumToWord {
 			current = tensNames[number % 10] + current;
 			number /= 10;
 		}
-		if (num_new > 100) {
+		if (num_new >= 100) {
 			numWords = numNames[number] + " hundred" + current;
 		} else {
 
