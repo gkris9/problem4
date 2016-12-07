@@ -31,4 +31,10 @@ public class NumbersIntoWordsTestShould extends TestCase {
 		NumbersIntoWords numIntoWords = new NumbersIntoWords();
 		assertEquals("Twenty", numIntoWords.convertNumIntoWords(20));
 	}
+	
+	@Test
+	public void return_1000_into_Words() {
+		NumbersIntoWords numIntoWords = new NumbersIntoWords();
+		assertEquals("Twenty", numIntoWords.convertNumIntoWords(1000));
+	}
 }
