@@ -35,12 +35,13 @@ public class NumbersIntoWordsTestShould extends TestCase {
 	@Test
 	public void return_100_into_Words() {
 		NumbersIntoWords numIntoWords = new NumbersIntoWords();
-		assertEquals("Hundred", numIntoWords.convertNumIntoWords(1000));
+		assertEquals("Hundred", numIntoWords.convertNumIntoWords(100));
 	}
 	
 	@Test
-	public void return_1000_into_Words() {
+	public void return_999_into_Words() {
 		NumbersIntoWords numIntoWords = new NumbersIntoWords();
-		assertEquals("Thousand", numIntoWords.convertNumIntoWords(1000));
+		assertEquals("Nine Hundred Ninty Nine", numIntoWords.convertNumIntoWords(999));
 	}
+	
 }
